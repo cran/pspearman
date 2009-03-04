@@ -49,7 +49,7 @@ function(x, y, alternative = c("two.sided", "less", "greater"),
                    p = double(1),
                    integer(1),
                    as.logical(lower.tail),
-                   PACKAGE = "stats")$p
+                   PACKAGE = "pspearman")$p
             else { # for large n: asymptotic t_{n-2}
         	r <- 1 - 6 * q / (n*(n^2-1)) # careful for overflow
         	pt(r / sqrt((1 - r^2)/(n-2)), df = n-2,
