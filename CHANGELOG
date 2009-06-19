@@ -1,3 +1,7 @@
+2009-06-19  0.2-5   including the exact statistics for n <= 22
+                    explicit choice of approximation (exact, AS89, t-distribution)
+                    including NAMESPACE file
+                    update of documentation
 2009-03-04  0.1-10  correcting PACKAGE argument of .C
 2009-02-11  0.1-9   initial submission to CRAN
 
