@@ -10,6 +10,8 @@
   function of Spearman's rho. Besides the two approximations
   used in \code{cor.test(,method="spearman")}, which are AS89 and the t-distribution,
   this function allows to use precomputed null distribution for \code{n <= 22}.
+  See \code{spearman.test} for the details of the algorithm used to compute this
+  null distribution.
 }
 
 \usage{

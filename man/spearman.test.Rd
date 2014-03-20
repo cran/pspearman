@@ -31,10 +31,10 @@ spearman.test(x, y,
 }
 
 \details{
-Calculation of the null distribution of Spearman's rank correlation statistics
+Calculation of the exact null distribution of Spearman's rank correlation statistics
 is exponentially hard in \code{n}. This package uses precomputed exact distribution
-for \code{n <= 22}. The computation was done using Ryser's formula applied to
-an appropriate monomial permanent as described in
+for \code{n <= 22} obtained using Ryser's formula applied to an appropriate monomial
+permanent as described in
 \cite{
 M.A. van de Wiel and A. Di Bucchianico,
 Fast computation of the exact null distribution of Spearman's rho and Page's L statistic
@@ -52,7 +52,7 @@ out2 <- spearman.test(x, y, approximation="AS89")
 out3 <- cor.test(x, y, method="spearman")
 out1$p.value # [1] 0.05443067  this is the exact value
 out2$p.value # [1] 0.05444507  approximation obtained from AS89
-out3$p.value # [1] 0.05444507  dtto (R-2.9.0 and older versions have 0.05169460 here)
+out3$p.value # [1] 0.05444507  ditto
 }
 
 \keyword{htest}

@@ -1,3 +1,2 @@
 export(pspearman, spearman.test)
-export(.Last.lib)
 

@@ -2,7 +2,7 @@
 	library.dynam("pspearman", pkg, lib)
 }
 
-.Last.lib <- function(libpath) {
+.onUnload <- function(libpath) {
 	library.dynam.unload("pspearman", libpath)
 }
 
