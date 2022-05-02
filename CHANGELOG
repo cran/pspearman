@@ -1,3 +1,4 @@
+2022-05-01  0.3-1   included importFrom to NAMESPACE file
 2014-03-20  0.3-0   use .onUnload instead of .Last.lib
                     minor modifications of the documentation
 2009-06-19  0.2-5   including the exact statistics for n <= 22
